@@ -1,0 +1,21 @@
+name: propuot
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch=2.4.1
+  - torchvision=0.19.1
+  - pytorch-cuda=12.4
+  - pip
+  - pip:
+      - transformers==4.45.1
+      - geomloss==0.2.6
+      - numpy==2.0.1
+      - pandas==2.2.3
+      - scipy==1.14.1
+      - scikit-learn==1.5.2
+      - Pillow==10.4.0
+      - tqdm==4.66.5
+      - PyYAML==6.0.1
